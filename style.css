@@ -1,37 +1,63 @@
-body {
-    height: 100vh;
-    margin: 0px;
+h1 {
+    color: blueviolet;
 }
-
-#contenedor {
-    height: 100%;
+h2 {
+    color: white;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-}
-
-input{
-    display: flex;
-flex-direction: column;
-gap: 0.50 raw;
-padding: 8px;
-background-color: aqua;
-border-radius: 20px;
-}
-button{
-
-    margin: 0%;
-    padding: 0%;
-    background-color: aqua;
-   border-radius: 20px;
-}
-label{
-    flex-direction: ;
-    gap: 0.5 raw;
-    padding: 2px;
-    background-color: aqua;
+    background-color: #D76D77;
+    margin: 20px;
     border-radius: 20px;
 }
-button{
-   box-shadow: 10px 5px ;
+p {
+    color: lightseagreen;
+}
+#info2{
+    color: red;
+}
+#info1{
+    color: orange;
+}
+body{
+    display: flex;
+    height: 100vh;
+    margin: 0px;
+    justify-content: center;
+    text-align: center;
+    background: gray
+}
+#centro{ 
+    background-color: fuchsia;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+}
+#titulo{
+    display: flex;
+    justify-content: center;
+    background-color: #D76D77;
+    margin: 20px;
+    border-radius: 20px;
+    
+}
+#texto{
+    display: flex;
+    flex-direction: column;
+    background-color: #D76D77;
+    margin: 20px;
+    border-radius: 20px;
+}
+#autores{
+    display: flex;
+    justify-content: space-around;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #D76D77;
+    padding: 16px;
+    margin: 20px;
+    border-radius: 15px;
 }
