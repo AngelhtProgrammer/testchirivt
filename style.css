@@ -1,0 +1,37 @@
+body {
+    height: 100vh;
+    margin: 0px;
+}
+
+#contenedor {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input{
+    display: flex;
+flex-direction: column;
+gap: 0.50 raw;
+padding: 8px;
+background-color: aqua;
+border-radius: 20px;
+}
+button{
+
+    margin: 0%;
+    padding: 0%;
+    background-color: aqua;
+   border-radius: 20px;
+}
+label{
+    flex-direction: ;
+    gap: 0.5 raw;
+    padding: 2px;
+    background-color: aqua;
+    border-radius: 20px;
+}
+button{
+   box-shadow: 10px 5px ;
+}
