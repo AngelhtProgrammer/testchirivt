@@ -1,5 +1,5 @@
 h1 {
-    color: blueviolet;
+    color: gainsboro;
 }
 h2 {
     color: white;
@@ -10,13 +10,13 @@ h2 {
     border-radius: 20px;
 }
 p {
-    color: lightseagreen;
+    color: gainsboro;
 }
 #info2{
-    color: red;
+    color: white;
 }
 #info1{
-    color: orange;
+    color: white;
 }
 body{
     display: flex;
@@ -60,4 +60,9 @@ body{
     padding: 16px;
     margin: 20px;
     border-radius: 15px;
+}
+.subtitulos {
+    display: flex;
+    justify-content: center;
+    color:  gainsboro;
 }
